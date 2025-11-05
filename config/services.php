@@ -31,7 +31,7 @@ return [
     ],
 
     'stripe' => [
-        'secret' => 'sk_test_51ImMYLL8CFL5l5Nj8ABACoXjon8HlNVSWRL2LiTNSCw2QBQeDusGYoskA0895tgPd8zVPwg2Y0jFxsZkYSjqCivj003dUkfPMc',
+        'secret' => env('STRIPE_SECRET_KEY'),
         'version' => '2019-02-19',
     ],
 
